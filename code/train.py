@@ -43,8 +43,8 @@ times2 = []
 numlines = 0
 casestarttime = None
 lasteventtime = None
-eventlog = str(sys.argv[1]).split("/")[-1]
 
+eventlog = str(sys.argv[1]).split("/")[-1]
 csvfile = open('%s' % sys.argv[1], 'r')
 spamreader = csv.reader(csvfile, delimiter=',', quotechar='|')
 next(spamreader, None)  # skip the headers
