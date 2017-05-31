@@ -42,7 +42,8 @@ times2 = []
 numlines = 0
 casestarttime = None
 lasteventtime = None
-eventlog = "helpdesk.csv"
+#eventlog = "helpdesk.csv"
+eventlog = "tahiti-data.csv"
 
 csvfile = open('../data/%s' % eventlog, 'r')
 spamreader = csv.reader(csvfile, delimiter=',', quotechar='|')
